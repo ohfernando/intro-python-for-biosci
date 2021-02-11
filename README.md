@@ -3,7 +3,7 @@ Collection of scripts for evaluation exercises for Biol 282.
 
 Please make sure the following modules are installed: numpy, pandas, matplotlib, seaborn
 
-Installation instructions: [insert links]
+Installation instructions for all packages necessary linked at the end of this file 
 
 Each exercise is available in its own subfolder. Please make sure to deposit any files to be used for each script in the specified subfolder.
 
@@ -23,13 +23,25 @@ Exercise 6:
 
 Exercise 7: ete3, taxopy, and taxonomy-ranks are necessary
 Please make sure you're connected to the internet when running this script
-Installation instructions for packages:
-ete3: http://etetoolkit.org/download/
-taxopy: https://pypi.org/project/taxopy/
-taxonomy-ranks: https://pypi.org/project/taxonomy-ranks/#description
 
 Exercise 8:
 
 Exercise 9:
 
 Exercise 10:
+
+Installation instructions for packages:
+
+ete3: http://etetoolkit.org/download/
+
+matplotlib:
+
+numpy:
+
+pandas:
+
+seaborn
+
+taxopy: https://pypi.org/project/taxopy/
+
+taxonomy-ranks: https://pypi.org/project/taxonomy-ranks/#description
