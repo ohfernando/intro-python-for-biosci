@@ -17,7 +17,7 @@ Exercise 3:
 
 Exercise 4:
 
-Exercise 5:
+Exercise 5: RamachanDraw is necessary
 
 Exercise 6:
 
@@ -26,9 +26,9 @@ Please make sure you're connected to the internet when running this script
 
 Exercise 8:
 
-Exercise 9:
+Exercise 9: please make sure input file is in same directory as script
 
-Exercise 10:
+Exercise 10: please make sure input file is in same directory as script
 
 Installation instructions for packages:
 
@@ -40,7 +40,7 @@ numpy:
 
 pandas:
 
-seaborn
+seaborN
 
 taxopy: https://pypi.org/project/taxopy/
 
