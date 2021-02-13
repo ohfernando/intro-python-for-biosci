@@ -17,7 +17,7 @@ Exercise 3:
 
 Exercise 4:
 
-Exercise 5: RamachanDraw is necessary
+Exercise 5: RamachanDraw is necessary. Input PDB identifier in command line as string 
 
 Exercise 6:
 
