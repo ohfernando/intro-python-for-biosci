@@ -5,7 +5,7 @@ Please make sure the following modules are installed: numpy, pandas, matplotlib,
 
 Installation instructions for all packages necessary linked at the end of this file 
 
-Each exercise is available in its own subfolder. Please make sure to deposit any files to be used for each script in the specified subfolder.
+Each exercise is available in its own subfolder. Please make sure to deposit any files to be used for each script in the specified subfolder. A test file is available in the exercise-specific folder if you prefer. 
 
 Exercise-specific instructions:
 
