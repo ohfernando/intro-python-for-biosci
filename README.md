@@ -7,6 +7,8 @@ Installation instructions for all packages necessary linked at the end of this f
 
 Each exercise is available in its own subfolder. Please make sure to deposit any files to be used for each script in the specified subfolder. A test file is available in the exercise-specific folder if you prefer. 
 
+Some of these scripts may take 5-10 minutes to run. I've incuded estimated runtime in scripts which may take longer than a few minutes to run. Please be patient!
+
 Exercise-specific instructions:
 
 Exercise 1: 
