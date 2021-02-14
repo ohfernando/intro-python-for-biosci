@@ -26,24 +26,27 @@ def finalout(d,orgid):
     
 
 try:
-    taxdb = taxopy.TaxDb(nodes_dp="taxdb/nodes.dmp", names_dmp="taxdb/names.dmp", keep_files=True)
-except:
-    #try:
-    taxdb = taxopy.TaxDb()
-    #except:
-        #print('taxopy error, try again!')
+    try:
+        taxdb = taxopy.TaxDb(nodes_dp="taxdb/nodes.dmp", names_dmp="taxdb/names.dmp", keep_files=True)
+    except:
+        #try:
+        taxdb = taxopy.TaxDb()
+        #except:
+            #print('taxopy error, try again!')
 
 #taxaidfile=open(sys.argv[1],"r")
 #for line in taxaidfile:
  #   stringoftaxids=str(line)
 #taxaids=stringoftaxids.split()
-taxaids=['3702','3712']
+    taxaids=sys.argv[1:]
 
 
-org1= taxopy.Taxon(taxaids[0], taxdb)
-org2 = taxopy.Taxon(taxaids[1], taxdb)
-print(str(taxopy.find_lca([org1, org2], taxdb)) + ' is LCA')
-org1dict=org1.rank_name_dictionary
-org2dict=org2.rank_name_dictionary
-finalout(org1dict,taxaids[0])
-finalout(org2dict,taxaids[1])
+    org1= taxopy.Taxon(taxaids[0], taxdb)
+    org2 = taxopy.Taxon(taxaids[1], taxdb)
+    print(str(taxopy.find_lca([org1, org2], taxdb)) + ' is LCA')
+    org1dict=org1.rank_name_dictionary
+    org2dict=org2.rank_name_dictionary
+    finalout(org1dict,taxaids[0])
+    finalout(org2dict,taxaids[1])
+except taxopy.exceptions.ExtractionError:
+    print('please delete the taxopy dumpfile in your directory and try again')
