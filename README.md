@@ -11,13 +11,13 @@ Some of these scripts may take 5-10 minutes to run. I've incuded estimated runti
 
 Exercise-specific instructions:
 
-Exercise 1: 
+Exercise 1: no special notes
 
 Exercise 2: make sure the main file is in the same directory as betternumgenerator.py, then  open betternumgenerator.py before running code
 
 Exercise 3:
 
-Exercise 4:
+Exercise 4: no special notes
 
 Exercise 5: RamachanDraw is necessary. Input PDB identifier in command line as string 
 
