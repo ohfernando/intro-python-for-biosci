@@ -23,8 +23,9 @@ Exercise 5: RamachanDraw is necessary. Input PDB identifier in command line as s
 
 Exercise 6: please note that if you use an organism with a large genome DNA-binding proteins may not be visible due to the density of proteins in graph; if you want to see DNA binding proteins highlighted please make sure to use an organism with less proteins in their genome. The testvisible.fasta file in the directory for that exercise should suit this purpose (please note this is not an actual organism, it's made up of an amalgamation of proteins from different organisms' proteomes).
 
-Exercise 7: ete3 and taxopy are necessary
-Please make sure you're connected to the internet when running this script. You might need to delete the file taxdump.ar and associated files in the directory if you get an error when unzipping. 
+Exercise 7: ete3 and taxopy are necessary.
+The input format should be two taxaIDs in the command line, eg: ex7.py 3702 3712
+Please make sure you're connected to the internet when running this script. You might need to delete the file taxdump.tar and associated files in the directory if you get an error when unzipping. 
 This script may take 5-10 minutes or more to run due to databases needing to be updated.
 
 Exercise 8: input file should contain coordinates; one set of coordinates per line, latitude and longitude seperated by a space (NOT comma or other character). First coordinate should be the coordinate being triangulated.
