@@ -13,7 +13,6 @@ for line in fasta:
 
 proteinostring=str(countproteins)
 try:
-    print(proteinostring,proteinostring[-3])
     endnumber=int(proteinostring[-3]+proteinostring[-2]+proteinostring[-1])
     endthousand=(int(proteinostring[0:-3])+1)*1000
 except IndexError:
@@ -64,10 +63,10 @@ for line in fasta:
         newfile.write(line)
         count=count+1
         jobpath=os.path.join(path,filename+'.job')
-        jobfile=open(jobpath,'w')
-        for file in sys.argv[2:]:
+        jobfile=open(jobpath,'a')
         #for item in listoffastas:
-            writeline="blastn -db " + filename + " -query " + filepath + " -out results.out"
+        for file in sys.argv[2:]:
+            writeline="blastn -db " + str(file) + " -query " + filepath + " -out results.out \n"
             jobfile.write(writeline)
         jobfile.close()
     else:
@@ -79,3 +78,4 @@ for line in fasta:
 #os.rename(parent_dir_path,newname)
 newfile.close()
 fasta.close()
+
