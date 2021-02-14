@@ -13,7 +13,7 @@ Exercise-specific instructions:
 
 Exercise 1: 
 
-Exercise 2: no extra notes
+Exercise 2: make sure the main file is in the same directory as betternumgenerator.py, then  open betternumgenerator.py before running code
 
 Exercise 3:
 
