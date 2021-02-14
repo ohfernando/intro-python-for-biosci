@@ -26,7 +26,7 @@ Exercise 6: please note that if you use an organism with a large genome DNA-bind
 Exercise 7: ete3, taxopy, and taxonomy-ranks are necessary
 Please make sure you're connected to the internet when running this script
 
-Exercise 8:
+Exercise 8: input file should contain coordinates; one set of coordinates per line, latitude and longitude seperated by a space (NOT comma or other character). First coordinate should be the coordinate being triangulated.
 
 Exercise 9: input desired amino acid in command line. format should be: exercisescript.py fastafile.fasta 'A' (where A can be substituted for any other one-letter IUPAC coded amino acid out of the 20 standard amino acids)
 
