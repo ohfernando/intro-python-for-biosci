@@ -1,5 +1,5 @@
 # intro-python-for-biosci
-(Update 2/15: sample files added for all relevant exercises; for proteomes test 1 is Tursiops truncatus and test2 is Pleurotus ostreatus.)
+(Update 2/15: sample files added for all relevant exercises; for proteomes test2 is Pleurotus ostreatus. I used the proteome for Tursiops truncatus for test runs, but the file was too large to upload.)
 
 Collection of scripts for evaluation exercises for Biol 282.
 
