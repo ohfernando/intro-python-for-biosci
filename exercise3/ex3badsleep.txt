@@ -1,0 +1,7 @@
+The fourth parameter I decided to use was bad sleep. I used numpy
+to generate a floating point number between 0 and 1. If the student
+slept badly, i.e. probability generated was less than a certain
+threshold the score would decrease by a certain factor (by
+multiplying by 0.9) and if the student slept badly the score would
+decrease even more. This was applied to both exam score and exercise 
+score.

@@ -1,0 +1,9 @@
+The effort parameter was set as a variable. A number between 10 and 15 was
+generated, again using the weighted random number generator script I wrote, 
+and that number was divided by 10 to get a floating point number. This 
+number was then used to multiply the exam score and each individual exercise
+score, in effect increasing the minimum exam score and the probability
+of succeeding in each exercise.
+
+The scatterplot shown and saved to your computer shows effort vs. score grouped 
+by letter grade.

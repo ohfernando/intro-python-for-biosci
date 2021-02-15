@@ -1,0 +1,14 @@
+The parameter luck involved randomly generating an integer of 1 or 0.
+Two numbers are then generated (using my own weighted random number script
+rather than Python's random number module so the final grade isn't so skewed)
+The two numbers are then assigned to variables minres and maxres depending on
+whether they're minimum or maximum. If luck=0 the minres variable is chosen as
+the variable to be used and if luck=1 (luck exists) the maxres variable is chosen.
+This function was applied for all the exercises as well as the exam.
+
+The scatterplot shown and saved to your computer shows average weighted luck 
+vs. score grouped by letter grade. Average weighted luck was calculated similar
+to exam grade.
+
+The KDE and histogram show the *PRESENCE* vs absence of luck. 1=luck variable in
+operation, 2=luck variable not in operation

@@ -1,0 +1,6 @@
+Charisma is a binary value, 1 or 0, which is provided. If charisma exists, the score is 
+rounded up.
+
+You will have seen four plots wrt charisma. They will also be saved to this directory.
+The plots will show kernel density estimates and histograms for varying charisma 
+based on scores as well as a bar plot for letter grades wrt charisma.
