@@ -393,12 +393,10 @@ def winGame():
         askNewGame()
 
 def askNewGame():
-    newGame = input('Do you want to play another game? \'Yes\' or \'No\'.')
-    while newGame != 'yes' or 'no':
-        if newGame == 'yes' or 'Yes' or 'y' or 'Y':
-            dealHand()
-    if newGame == 'no' or 'No' or 'n' or 'N':
-        print('Goodbye!')
+    
+def askNewGame():
+    print('New game'!)
+
 
 
 print('Welcome to Blackjack' + '\n')
