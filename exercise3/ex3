@@ -1,0 +1,93 @@
+import seaborn as sns
+import pandas as pd
+import matplotlib.pyplot as plt
+
+def readfile(file):
+    words=open(file,'r+')
+    for line in words:
+        print(line)
+    words.close()
+
+sns.set(style = "darkgrid")
+
+dfcharisma=pd.read_csv('charisma.csv')
+
+readfile('ex3words.txt')
+
+sns.displot(dfcharisma, x="score", hue="charisma", kind='kde')
+plt.title('KDE_scores')
+plt.savefig("charismakde.png")
+plt.show()
+
+sns.displot(dfcharisma, x="score", hue="charisma", element="step")
+plt.title('Histogram_scores')
+plt.savefig("charismastep.png")
+plt.show()
+
+sns.countplot(data=dfcharisma, x="lettergrade", hue="charisma")
+plt.title('Countplot_grades')
+plt.savefig("charismagrades.png")
+plt.show()
+
+readfile('ex3charisma.txt')
+
+dfeffort=pd.read_csv('effort.csv')
+
+sns.scatterplot(data=dfeffort,x='score',y='effort',hue='lettergrade')
+plt.title('Effort_v_score')
+plt.savefig("effort.png")
+plt.show()
+
+#sns.scatterplot(data=dfeffort,y='score',x='effort',hue='lettergrade')
+#plt.title('Effort_v_score')
+#plt.savefig("effortswitched.png")
+#plt.show()
+
+readfile('ex3effort.txt')
+
+dfluck=pd.read_csv('luck.csv')
+
+sns.scatterplot(data=dfluck,x='score',y='weighted_avg_luck',hue='lettergrade')
+plt.title('Luck_v_score')
+plt.savefig("luck.png")
+plt.show()
+
+dfluck2=pd.read_csv('luckpresent.csv')
+
+sns.displot(dfluck2, x="score", hue="luckpresent", kind='kde')
+plt.title('KDE_scores_luck_present/absent')
+plt.savefig("luckpresentkde.png")
+plt.show()
+
+sns.displot(dfluck2, x="score", hue="luckpresent", element="step")
+plt.title('Histogram_scores_luck_present/absent')
+plt.savefig("luckpresentstep.png")
+plt.show()
+
+
+readfile('ex3luck.txt')
+
+dfsleep=pd.read_csv('badsleep.csv')
+
+sns.scatterplot(data=dfsleep,y='score',x='badsleep',hue='lettergrade')
+plt.title('Sleep_probability_v_score')
+plt.savefig("badsleep.png")
+plt.show()
+
+
+readfile('ex3badsleep.txt')
+
+
+dfwow=pd.read_csv('wow.csv')
+
+sns.displot(dfwow, x="score", hue="with_or_without", kind='kde')
+plt.title('KDE_scores_both')
+plt.savefig("bothkde.png")
+plt.show()
+
+sns.displot(dfwow, x="score", hue="with_or_without", element="step")
+plt.title('Histogram_scores_both')
+plt.savefig("bothstep.png")
+plt.show()
+
+readfile('ex3final.txt')
