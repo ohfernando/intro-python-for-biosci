@@ -1,3 +1,4 @@
+#script in part from https://codereview.stackexchange.com/questions/239990/basic-blackjack-game-in-python
 import random
 import time
 
