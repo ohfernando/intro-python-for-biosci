@@ -1,3 +1,5 @@
+#script in part from https://stackoverflow.com/questions/51212158/how-to-find-angle-between-gps-coordinates-in-pandas-dataframe-python?answertab=votes#tab-top
+
 import sys
 import numpy as np
 
