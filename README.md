@@ -15,11 +15,11 @@ Exercise 1: no special notes
 
 Exercise 2: make sure the main file is in the same directory as betternumgenerator.py, then  open betternumgenerator.py before running code
 
-Exercise 3:
+Exercise 3: please make sure all the .csv and .txt files are in the same directory as the .py before running.
 
 Exercise 4: no special notes
 
-Exercise 5: RamachanDraw is necessary. Input PDB identifier in command line as string 
+Exercise 5: RamachanDraw is necessary. Input PDB identifier in command line as string; make sure you're connected to the internet when running code.
 
 Exercise 6: please note that if you use an organism with a large genome DNA-binding proteins may not be visible due to the density of proteins in graph; if you want to see DNA binding proteins highlighted please make sure to use an organism with less proteins in their genome. The testvisible.fasta file in the directory for that exercise should suit this purpose (please note this is not an actual organism, it's made up of an amalgamation of proteins from different organisms' proteomes).
 
@@ -38,13 +38,13 @@ Installation instructions for packages:
 
 ete3: http://etetoolkit.org/download/
 
-matplotlib:
+matplotlib: https://matplotlib.org/stable/users/installing.html
 
-numpy:
+numpy: https://numpy.org/install/
 
-pandas:
+pandas: https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html
 
-seaborn:
+seaborn: https://seaborn.pydata.org/installing.html
 
 taxopy: https://pypi.org/project/taxopy/
 
