@@ -86,7 +86,6 @@ for item in scorelistfinal:
         pf=0
     exerciselist.append(pf)
     #make a list of scores for each exercie
-print(exerciselist)
 exercisetotal=0
 for element in exerciselist:
     exercisetotal=exercisetotal+element
@@ -105,7 +104,6 @@ if examscore>10:
     examscore=10
 
 finalscore=(0.4*examscore)+(exercisetotal*0.6)
-print(examscore,exercisetotal)
 flist=[]
 charismaexists(charisma,finalscore,flist)
 gradelist=['A','B','C','D','F']
